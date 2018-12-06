@@ -1,0 +1,9 @@
+1、base.css PC版通用样式、样式重置
+2、public.css 公共样式表
+3、index.css 首页样式表
+4、page.css 分页样式表
+
+
+
+
+注：基础样式表一律以小写英文命名
