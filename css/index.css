@@ -1,1 +1,337 @@
-/*================首页样式及公共部分样式================*/
+/**定义全局样式**/
+.pr {
+  position: relative;
+}
+.pa {
+  position: absolute;
+}
+.pf {
+  position: fixed;
+}
+.db {
+  display: block;
+}
+.dn {
+  display: none;
+}
+.dib {
+  display: inline-block;
+}
+.B {
+  font-weight: bold;
+}
+/**定义背景颜色函数**/
+.header .top {
+  height: 35px;
+  background-color: #f1f1f1;
+}
+.header .top .box p {
+  font-size: 14px;
+  line-height: 35px;
+  height: 35px;
+  color: #666666;
+}
+.header .top .box .to-per {
+  margin-top: 5px;
+}
+.header .top .box .to-per .op {
+  margin-right: 18px;
+}
+.header .top .box .to-per .op a {
+  width: 45px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  font-size: 14px;
+}
+.header .top .box .to-per .op a.login {
+  background-color: #faa02a;
+  color: #ffffff;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.header .top .box .to-per .op a.res {
+  width: 43px;
+  height: 22px;
+  line-height: 22px;
+  border: 1px solid #faa02a;
+  font-size: 14px;
+  color: #666666;
+  border-radius: 5px;
+}
+.header .top .box .to-per > a {
+  font-size: 14px;
+  color: #666666;
+  padding-left: 13px;
+  position: relative;
+  margin-top: 1px;
+}
+.header .top .box .to-per > a:hover {
+  color: #faa02a;
+}
+.header .top .box .to-per > a::before {
+  width: 1px;
+  height: 15px;
+  background-color: #666666;
+  content: '';
+  left: 0;
+  top: 50%;
+  margin-top: -7.5px;
+  position: absolute;
+}
+.header .bt .logo-box {
+  padding: 15px 0;
+}
+.header .bt .logo a {
+  margin-right: 90px;
+}
+.header .bt .logo a img {
+  display: block;
+  width: 215px;
+  height: 66px;
+}
+.header .bt .logo > img {
+  margin-top: 15px;
+}
+.header .bt .tel img {
+  display: block;
+  width: 49px;
+  height: 49px;
+  border-radius: 50%;
+  margin-right: 9px;
+  margin-top: 10px;
+}
+.header .bt .tel p {
+  font-size: 14px;
+  line-height: 28px;
+  color: #666666;
+}
+.header .bt .tel h2 {
+  font-size: 26px;
+  line-height: 32px;
+  font-weight: bold;
+  color: #0091db;
+}
+.header .bt .top-nav {
+  height: 49px;
+  line-height: 49px;
+  position: relative;
+}
+.header .bt .top-nav > h2 {
+  width: 248px;
+  text-align: center;
+  background-color: #faa02a;
+  font-size: 20px;
+  color: #f5f5f5;
+  font-weight: bold;
+  position: relative;
+}
+.header .bt .top-nav > h2::after {
+  width: 0px;
+  height: 0px;
+  vertical-align: middle;
+  border-top: 6px solid;
+  border-right: 6px solid transparent;
+  border-left: 6px solid transparent;
+  color: #ffffff;
+  position: absolute;
+  content: '';
+  right: 57px;
+  top: 50%;
+  margin-top: -2px;
+  z-index: 3;
+}
+.header .bt .top-nav > ul {
+  margin-left: 42px;
+}
+.header .bt .top-nav > ul li {
+  float: left;
+  height: 49px;
+  line-height: 49px;
+  margin-right: 50px;
+}
+.header .bt .top-nav > ul li a {
+  font-size: 16px;
+  color: #333333;
+}
+.header .bt .top-nav > ul li a.on {
+  color: #faa02a;
+}
+.header .bt .top-nav > ul li a:hover {
+  color: #faa02a;
+}
+.header .bt .top-nav .left-nav {
+  position: absolute;
+  left: 0;
+  top: 49px;
+  z-index: 4;
+  background-color: #ffffff;
+}
+.header .bt .top-nav .left-nav > ul > li {
+  width: 223px;
+  padding: 10px 10px 5px 15px;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  position: relative;
+}
+.header .bt .top-nav .left-nav > ul > li.on {
+  border-top: 1px solid #faa02a;
+  border-bottom: 1px solid #faa02a;
+}
+.header .bt .top-nav .left-nav > ul > li.on::after {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 1px;
+  background-color: #ffffff;
+  z-index: 5;
+  content: '';
+}
+.header .bt .top-nav .left-nav > ul > li.on h2 a {
+  color: #faa02a;
+}
+.header .bt .top-nav .left-nav > ul > li.on h2 a .sec {
+  display: block;
+}
+.header .bt .top-nav .left-nav > ul > li.on h2 a .fir {
+  display: none;
+}
+.header .bt .top-nav .left-nav > ul > li h2 {
+  margin-bottom: 15px;
+}
+.header .bt .top-nav .left-nav > ul > li h2 a {
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+}
+.header .bt .top-nav .left-nav > ul > li h2 a span {
+  font-weight: bold;
+  position: relative;
+  padding-left: 12px;
+}
+.header .bt .top-nav .left-nav > ul > li h2 a span::before {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 15px;
+  left: 0;
+  top: 50%;
+  margin-top: -7px;
+  background-color: #32baff;
+}
+.header .bt .top-nav .left-nav > ul > li h2 a img {
+  width: 7px;
+  height: 15px;
+  margin-top: 3px;
+}
+.header .bt .top-nav .left-nav > ul > li h2 a .sec {
+  display: none;
+}
+.header .bt .top-nav .left-nav > ul > li ul li {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.header .bt .top-nav .left-nav > ul > li ul li a {
+  display: block;
+  font-size: 14px;
+  color: #666666;
+  line-height: 24px;
+  border-radius: 12px;
+}
+.header .bt .top-nav .left-nav > ul > li ul li a:hover {
+  background-color: #faa02a;
+  color: #ffffff;
+}
+.header .bt .top-nav .left-nav .right-select {
+  position: absolute;
+  width: 225px;
+  height: 100%;
+  left: 100%;
+  top: 0;
+  z-index: 3;
+  background-color: #ffffff;
+  display: none;
+  margin-left: -1px;
+}
+.header .bt .top-nav .left-nav .right-select .box {
+  height: 411px;
+  border: 1px solid #faa02a;
+  padding-left: 25px;
+  padding-top: 15px;
+  display: none;
+}
+.header .bt .top-nav .left-nav .right-select .box > ul > li h2 {
+  font-size: 12px;
+  line-height: 24px;
+  color: #ffffff;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 74px;
+  height: 24px;
+  margin-bottom: 10px;
+}
+.header .bt .top-nav .left-nav .right-select .box > ul > li ul li {
+  float: left;
+  width: 33.33%;
+  margin-bottom: 10px;
+}
+.header .bt .top-nav .left-nav .right-select .box > ul > li ul li a {
+  display: block;
+  font-size: 14px;
+  line-height: 24px;
+  color: #666666;
+}
+.header .bt .top-nav .left-nav .right-select .box > ul > li ul li a:hover {
+  color: #faa02a;
+}
+.index-banner .slideBox {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+}
+.index-banner .slideBox .hd {
+  height: 15px;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+}
+.index-banner .slideBox .hd ul {
+  overflow: hidden;
+  zoom: 1;
+  display: inline-block;
+}
+.index-banner .slideBox .hd ul li {
+  float: left;
+  margin-right: 15px;
+  width: 11px;
+  height: 11px;
+  background: #fff;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.index-banner .slideBox .hd ul li.on {
+  background: #ff4520;
+}
+.index-banner .slideBox .bd {
+  position: relative;
+  height: 100%;
+  z-index: 0;
+}
+.index-banner .slideBox .bd li {
+  zoom: 1;
+  vertical-align: middle;
+}
+.index-banner .slideBox .bd img {
+  width: 100%;
+  height: 450px;
+  display: block;
+}

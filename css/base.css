@@ -1,7 +1,7 @@
 /*================基本样式重置================*/
-html,body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,img,span,i,a,em,strong,b,input,textarea,select { margin:0; padding:0; }
+html,body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,img,span,i,a,em,strong,b,input,textarea,select { margin:0; padding:0;font-weight: normal;}
 i,em { font-weight:normal; font-style:normal; }
-body {width:100%; min-width:1200px; position: relative; font:12px/1.5 \5b8b\4f53,tahoma,arial,sans-serif; font-family: "Lucida Grande", "Microsoft JhengHei", "Microsoft YaHei";}
+body {width:100%; min-width:1200px; position: relative; font:12px/1.5 \5b8b\4f53,tahoma,arial,sans-serif; font-family:"Microsoft YaHei","Lucida Grande", "Microsoft JhengHei";}
 li { list-style:none; }
 a,img,input { border:0 none; }
 a { text-decoration:none; outline:none; }
