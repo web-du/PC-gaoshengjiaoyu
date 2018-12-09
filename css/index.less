@@ -368,3 +368,244 @@
         display:block;  
     }
 }
+.hot-active{
+    padding-top: 32px;
+}
+.index-title{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+    span{
+        font-size: 24px;
+        .B;
+        color: @fc;
+        .pr;
+        height: 100%;
+        .dib;
+        &::after{
+            .pa;
+            content:'';
+            width: 100%;
+            height: 2px;
+            .bg(@nc);
+            left: 0;
+            bottom:-15px;
+        }
+    }
+}
+.index-activity{
+    margin: 22px 0 20px;
+    li{
+        float: left;
+        margin-bottom: 20px;
+        img{
+            .db;
+            width: 590px;
+            height: 260px;
+        }
+    }
+}
+.index-course{
+    .course{
+        margin-bottom: 38px;
+        >.img{
+            img{
+                .db;
+                width: 240px;
+                height: 395px;
+            }
+        }
+        .details{
+            width: 930px;
+            .t-nav{
+                border-bottom: 1px solid @nc;
+                margin-bottom: 20px;
+                padding-left: 30px;
+                ul{
+                    li{
+                        float: left;
+                        width: 80px;
+                        height: 40px;
+                        line-height: 40px;
+                        text-align:center;
+                        font-size: 14px;
+                        color: @mc;
+                        border:1px solid @wc;
+                        border-bottom: 1px solid @nc;
+                        margin-bottom: -1px;
+                        cursor: pointer;
+                        &.on{
+                            border:1px solid @nc;
+                            border-bottom: 1px solid @wc;
+                        }
+                    }
+                }
+            }
+            .course-list{
+                height: 333px;
+            }
+            .box{
+                .dn;
+                li{
+                    float: left;
+                    margin-bottom: 31px;
+                    >a{
+                        .db;
+                    }
+                    .img{
+                        margin-right: 28px;
+                        img{
+                            .db;
+                            width: 230px;
+                            height: 150px;
+                        }
+                    }
+                    .name{
+                        h2{
+                            font-size: 16px;
+                            line-height: 24px;
+                            .B;
+                            color: @fc;
+                        }
+                        p{
+                            font-size: 14px;
+                            line-height: 24px;
+                            color: @mc;
+                        }
+                        h1{
+                            font-size: 24px;
+                            color: @nc;
+                            .B;
+                            line-height: 1;
+                            margin-bottom: 15px;
+                            margin-top: 10px;
+                        }
+                        .op{
+                            a{
+                                float: left;
+                                width: 80px;
+                                height: 28px;
+                                line-height: 28px;
+                                border:1px solid @nc;
+                                text-align: center;
+                                font-size:12px;
+                                border-radius: 5px;
+                                color: @nc;
+                                &.buy{
+                                    .bg(@nc);
+                                    color: @wc;
+                                    margin-right: 8px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.index-interview{
+    .video-box{
+        margin-top: 20px;
+        .con{
+            .video{
+                video{
+                    .db;
+                    width: 718px;
+                    height: 405px;
+                }
+            }
+            .name{
+                width: 239px;
+                height: 373px;
+                border:1px solid #ddd;
+                border-left: none;
+                padding-top: 30px;
+                img{
+                    .db;
+                    width: 102px;
+                    height: 102px;
+                    border-radius: 50%;
+                    margin:0 auto 20px;
+                }
+                h2{
+                    text-align: center;
+                    font-size: 20px;
+                    color: @fc;
+                    margin-bottom: 10px;
+                    span{
+                        font-size: 14px;
+                        color: @mc;
+                    }
+                }
+                p{
+                    font-size: 14px;
+                    color: @mc;
+                    padding-left: 24px;
+                    line-height: 25px;
+                    padding-right: 20px;
+                }
+                a{
+                    .db;
+                    width: 146px;
+                    height: 30px;
+                    line-height: 30px;
+                    text-align: center;
+                    .bg(@nc);
+                    border-radius: 5px;
+                    margin:20px auto 0;
+                    font-size: 14px;
+                    color: @wc;
+                }
+            }
+        }
+        .list{
+            li{
+                .pr;
+                cursor: pointer;
+                margin-bottom: 15px;
+                &:last-child{
+                    margin-bottom: 0px;
+                }
+                &.on::after{
+                    content:'';
+                    .pa;
+                    width: 5px;
+                    height: 100%;
+                    left: -5px;
+                    top: 0;
+                    .bg(@nc);
+                }
+                &.on::before{
+                    content:'';
+                    .pa;
+                    width: 0px;
+                    height: 0px;
+                    left: -8px;
+                    top: 50%;
+                    margin-top: -3px;
+                    vertical-align: middle;
+                    border-right: 6px solid;
+                    border-top: 6px solid transparent;
+                    border-bottom: 6px solid transparent;
+                    color: @nc;
+                }
+                .thumb{
+                    .db;
+                    width: 223px;
+                    height: 125px;
+                }
+                .play{
+                    .pa;
+                    width: 49px;
+                    height: 49px;
+                    border-radius: 50%;
+                    z-index: 4;
+                    left: 50%;
+                    top: 50%;
+                    margin-left: -24.5px;
+                    margin-top: -24.5px;
+                }
+            }
+        }
+    }
+}
