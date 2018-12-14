@@ -21,6 +21,7 @@
   font-weight: bold;
 }
 /**定义背景颜色函数**/
+/**定义css3函数**/
 .header .top {
   height: 35px;
   background-color: #f1f1f1;
@@ -859,4 +860,230 @@
   border-bottom: 4px solid;
   border-right: 4px solid transparent;
   border-left: 4px solid transparent;
+}
+/**一对一课程**/
+.one-to-one .banner img {
+  display: block;
+  width: 100%;
+}
+.one-to-one .b-title {
+  text-align: center;
+  font-size: 32px;
+  color: #333333;
+  margin-bottom: 30px;
+}
+.one-to-one .feature-box {
+  padding-top: 52px;
+  padding-bottom: 60px;
+}
+.one-to-one .feature-box .feature > li {
+  width: 285px;
+  margin-right: 20px;
+}
+.one-to-one .feature-box .feature > li:last-child {
+  margin-right: 0px;
+}
+.one-to-one .feature-box .feature > li:nth-child(2) h2 {
+  color: #32baff;
+}
+.one-to-one .feature-box .feature > li:nth-child(2) h2:after {
+  background-color: #32baff;
+}
+.one-to-one .feature-box .feature > li:nth-child(2) span {
+  background-color: #32baff;
+}
+.one-to-one .feature-box .feature > li:nth-child(3) h2 {
+  color: #faa02a;
+}
+.one-to-one .feature-box .feature > li:nth-child(3) h2:after {
+  background-color: #faa02a;
+}
+.one-to-one .feature-box .feature > li:nth-child(3) span {
+  background-color: #faa02a;
+}
+.one-to-one .feature-box .feature > li:nth-child(4) h2 {
+  color: #6b82ff;
+}
+.one-to-one .feature-box .feature > li:nth-child(4) h2:after {
+  background-color: #6b82ff;
+}
+.one-to-one .feature-box .feature > li:nth-child(4) span {
+  background-color: #6b82ff;
+}
+.one-to-one .feature-box .feature > li .img img {
+  display: block;
+  width: 285px;
+  height: 140px;
+}
+.one-to-one .feature-box .feature > li h2 {
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  font-weight: bold;
+  color: #ff5153;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+.one-to-one .feature-box .feature > li h2:after {
+  position: absolute;
+  content: '';
+  width: 80px;
+  height: 2px;
+  background-color: #ff5153;
+  left: 50%;
+  margin-left: -40px;
+  bottom: -10px;
+}
+.one-to-one .feature-box .feature > li dl {
+  text-align: center;
+  margin-bottom: 45px;
+  padding: 0 23px;
+}
+.one-to-one .feature-box .feature > li dl:last-of-type {
+  margin-bottom: 0px;
+}
+.one-to-one .feature-box .feature > li dl dt {
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+}
+.one-to-one .feature-box .feature > li dl dd {
+  font-size: 14px;
+  line-height: 24px;
+  color: #666666;
+}
+.one-to-one .feature-box .feature > li span {
+  display: block;
+  width: 120px;
+  height: 30px;
+  line-height: 30px;
+  margin: 20px auto 0;
+  background-color: #ff5153;
+  border-radius: 20px;
+  opacity: 1;
+  transition: opacity 0.3s ease 0s;
+  -webkit-transition: opacity 0.3s ease 0s;
+  -moz-transition: opacity 0.3s ease 0s;
+  -ms-transition: opacity 0.3s ease 0s;
+}
+.one-to-one .feature-box .feature > li span:hover,
+.one-to-one .feature-box .feature > li span:active {
+  opacity: 0.8;
+}
+.one-to-one .feature-box .feature > li span a {
+  color: #ffffff;
+  font-size: 14px;
+  display: block;
+  text-align: center;
+  border-radius: 20px;
+}
+.one-to-one .accurate {
+  padding-top: 52px;
+  padding-bottom: 60px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.one-to-one .accurate .three-tree {
+  text-align: center;
+}
+.one-to-one .accurate .three-tree li {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 24px;
+  color: #666666;
+  margin-right: 38px;
+  position: relative;
+  cursor: pointer;
+  padding-bottom: 9px;
+}
+.one-to-one .accurate .three-tree li:last-child {
+  margin-right: 0px;
+}
+.one-to-one .accurate .three-tree li:last-child:after {
+  display: none;
+}
+.one-to-one .accurate .three-tree li:after {
+  position: absolute;
+  content: '/';
+  right: -18px;
+  top: 0;
+  color: #666666 !important;
+}
+.one-to-one .accurate .three-tree li.active {
+  color: #faa02a;
+}
+.one-to-one .accurate .three-tree li.active:before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 1px;
+  background-color: #faa02a;
+  bottom: 0px;
+  left: 0;
+}
+.one-to-one .accurate .two-tree {
+  margin-top: 20px;
+}
+.one-to-one .accurate .two-tree .course {
+  text-align: center;
+}
+.one-to-one .accurate .two-tree .course li {
+  display: inline-block;
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  color: #faa02a;
+  border: 1px solid #faa02a;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-right: 25px;
+}
+.one-to-one .accurate .two-tree .course li.active {
+  color: #ffffff;
+  background-color: #faa02a;
+}
+.one-to-one .accurate .one-tree {
+  height: 500px;
+  min-height: 500px;
+  position: relative;
+  margin-top: 70px;
+}
+.one-to-one .accurate .one-tree .type-dif {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.one-to-one .accurate .one-tree .type-dif li {
+  width: 20%;
+  height: 220px;
+  position: absolute;
+  bottom: 0;
+}
+.one-to-one .accurate .one-tree .type-dif li h2 {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  left: 0;
+  top: -50px;
+  font-size: 30px;
+  color: #41bfff;
+}
+.one-to-one .accurate .one-tree .details > li > ul > li {
+  position: relative;
+}
+.one-to-one .accurate .one-tree .details > li > ul > li > ul {
+  position: absolute;
+  width: 20%;
+  left: 0;
+  top: 295px;
+  z-index: 4;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.one-to-one .accurate .one-tree .details > li > ul > li > ul li {
+  padding-left: 20px;
 }
