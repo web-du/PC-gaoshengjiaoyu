@@ -2310,3 +2310,276 @@
   line-height: 36px;
   color: #999999;
 }
+.course-details .course-name .img img {
+  display: block;
+  width: 565px;
+  height: 375px;
+}
+.course-details .course-name .name {
+  width: 605px;
+}
+.course-details .course-name .name h2 {
+  font-size: 28px;
+  line-height: 32px;
+  color: #faa02a;
+  margin-bottom: 12px;
+}
+.course-details .course-name .name .price {
+  height: 40px;
+  line-height: 40px;
+  background-color: #eeeeee;
+  padding-left: 35px;
+  font-size: 24px;
+  color: #faa02a;
+}
+.course-details .course-name .name .list li {
+  height: 39px;
+  border-bottom: 1px dashed #dcdcdc;
+  line-height: 39px;
+}
+.course-details .course-name .name .list li span {
+  font-size: 14px;
+  color: #333333;
+}
+.course-details .course-name .name .list li em {
+  font-size: 14px;
+  color: #666666;
+}
+.course-details .course-name .name .fs {
+  line-height: 35px;
+  margin: 15px 0;
+}
+.course-details .course-name .name .fs > span {
+  font-size: 14px;
+  color: #333333;
+}
+.course-details .course-name .name .fs ul li {
+  margin-right: 25px;
+  cursor: pointer;
+}
+.course-details .course-name .name .fs ul li.active span img {
+  display: block;
+}
+.course-details .course-name .name .fs ul li span {
+  width: 14px;
+  height: 14px;
+  border: 1px solid #999999;
+  border-radius: 50%;
+  position: relative;
+  margin-right: 12px;
+  margin-top: 10px;
+}
+.course-details .course-name .name .fs ul li span img {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: -1px;
+  top: -1px;
+  z-index: 3;
+  display: none;
+}
+.course-details .course-name .name .to-buy a {
+  width: 140px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 12px;
+}
+.course-details .course-name .name .to-buy a.buy {
+  background-color: #faa02a;
+  color: #ffffff;
+  margin-right: 15px;
+}
+.course-details .course-name .name .to-buy a.online {
+  border: 1px solid #faa02a;
+  color: #faa02a;
+}
+.course-details .course-sm {
+  margin: 35px auto 40px;
+}
+.course-details .course-sm h2 {
+  height: 45px;
+  background-color: #eeeeee;
+}
+.course-details .course-sm h2 span {
+  font-size: 18px;
+  color: #faa02a;
+  display: inline-block;
+  width: 120px;
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+  background-color: #ffffff;
+  border-top: 1px solid #faa02a;
+}
+.course-details .course-sm ul li {
+  padding: 15px 0;
+  border-bottom: 1px dashed #eee;
+}
+.course-details .course-sm ul li span {
+  font-size: 14px;
+  line-height: 32px;
+  color: #333333;
+  width: 80px;
+}
+.course-details .course-sm ul li p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #666666;
+  width: 1120px;
+}
+.course-details .teachers {
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px 0 30px;
+}
+.course-details .teachers h2 {
+  text-align: center;
+  font-size: 32px;
+  color: #333333;
+  margin-bottom: 30px;
+}
+.course-details .teachers .list li {
+  float: left;
+  width: 33.33%;
+  margin-bottom: 35px;
+}
+.course-details .teachers .list li:nth-child(2) .label {
+  background-color: #ffafae;
+}
+.course-details .teachers .list li:nth-child(2) .label i {
+  background-color: #ff6b69;
+}
+.course-details .teachers .list li:nth-child(3) .label {
+  background-color: #94dbff;
+}
+.course-details .teachers .list li:nth-child(3) .label i {
+  background-color: #51c4ff;
+}
+.course-details .teachers .list li:nth-child(4) .label {
+  background-color: #b5c0ff;
+}
+.course-details .teachers .list li:nth-child(4) .label i {
+  background-color: #778cff;
+}
+.course-details .teachers .list li:nth-child(5) .label {
+  background-color: #94dbff;
+}
+.course-details .teachers .list li:nth-child(5) .label i {
+  background-color: #51c4ff;
+}
+.course-details .teachers .list li .label {
+  width: 60px;
+  height: 60px;
+  border-radius: 18px;
+  background-color: #ffdbac;
+  position: relative;
+  margin-right: 15px;
+}
+.course-details .teachers .list li .label i {
+  position: absolute;
+  width: 46px;
+  height: 46px;
+  border-radius: 18px;
+  background-color: #ffb85a;
+  left: 50%;
+  margin-left: -23px;
+  top: 50%;
+  margin-top: -23px;
+  font-size: 24px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 46px;
+}
+.course-details .teachers .list li .text {
+  width: 285px;
+}
+.course-details .teachers .list li .text h3 {
+  font-size: 18px;
+  line-height: 32px;
+  color: #333333;
+}
+.course-details .teachers .list li .text p {
+  font-size: 14px;
+  line-height: 26px;
+  color: #666666;
+}
+.course-details .exclusive {
+  padding: 40px 0 55px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.course-details .exclusive h2 {
+  font-size: 32px;
+  color: #333333;
+  text-align: center;
+  margin-bottom: 35px;
+}
+.course-details .exclusive .list {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 232px;
+  position: relative;
+}
+.course-details .exclusive .list li {
+  width: 175px;
+  position: absolute;
+}
+.course-details .exclusive .list li h3 {
+  font-size: 18px;
+  color: #ffb85a;
+  text-align: center;
+}
+.course-details .exclusive .list li p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #666666;
+  text-align: center;
+}
+.course-details .exclusive .list li:nth-child(1) {
+  left: 0;
+  top: 148px;
+}
+.course-details .exclusive .list li:nth-child(1) h3 {
+  margin-bottom: 15px;
+}
+.course-details .exclusive .list li:nth-child(2) {
+  left: 200px;
+  top: 2px;
+}
+.course-details .exclusive .list li:nth-child(2) h3 {
+  margin-bottom: 15px;
+  color: #ff6b69;
+}
+.course-details .exclusive .list li:nth-child(3) {
+  left: 415px;
+  top: 148px;
+}
+.course-details .exclusive .list li:nth-child(3) h3 {
+  margin-bottom: 15px;
+  color: #51c4ff;
+}
+.course-details .exclusive .list li:nth-child(4) {
+  left: 620px;
+  top: 2px;
+}
+.course-details .exclusive .list li:nth-child(4) h3 {
+  margin-bottom: 15px;
+  color: #778cfe;
+}
+.course-details .exclusive .list li:nth-child(5) {
+  left: 820px;
+  top: 148px;
+}
+.course-details .exclusive .list li:nth-child(5) h3 {
+  margin-bottom: 15px;
+}
+.course-details .exclusive .list li:nth-child(6) {
+  left: 1030px;
+  top: 2px;
+}
+.course-details .exclusive .list li:nth-child(6) h3 {
+  margin-bottom: 15px;
+  color: #ff6b69;
+}
