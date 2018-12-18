@@ -1,1 +1,25 @@
 /*================分页样式================*/
+.pager{
+    display:inline-block;
+    cursor: pointer;
+}
+.pager span,.pager a{
+    display:inline-block;
+    height: 39px;
+    padding:0 15px;
+    line-height:39px;
+    text-align:center;
+    background-color:#f4f4f4;
+    border:1px solid #ddd;
+    font-size:16px;
+    color:#666;
+    margin:0 5px;
+}
+.pager span.current{
+    background-color:#fe8a0e;
+    color:#fff;
+    border:none;
+}
+.page-box{
+    text-align: center;
+}

@@ -1,0 +1,15 @@
+jquery基础库：
+
+1、jquery.js(普通版)，无特殊交互效果，仅供jquery基础交互时选用。
+2、jquery-1.8.3.min.js(升级压缩版)，复杂交互，网页含有H5交互时选用。
+
+
+jquery轮播图、图文滚动交互
+
+
+1、jquery.SuperSlide.2.1.2.js (修改版，可实现各类轮播图、图文滚动等交互，官网地址：http://www.superslide2.com/)
+
+jquery全屏滚动交互
+
+1、jquery.fullPage.js（完整版）(参数说明：http://www.uedsc.com/fullpage.html)
+1、jquery.fullPage.min.js（压缩版）

@@ -1545,6 +1545,175 @@
 .about-us .recruit-box .box .industry .page-box {
   width: 100%;
 }
+.about-us .industry {
+  padding-bottom: 55px;
+}
+.about-us .industry ul {
+  width: 1200px;
+  margin: 0 auto;
+}
+.about-us .industry ul li {
+  height: 178px;
+  border: 1px solid #ddd;
+  margin-bottom: 30px;
+}
+.about-us .industry ul li:hover {
+  border-color: #faa02a;
+}
+.about-us .industry ul li:hover .box .left .text h2 {
+  color: #faa02a;
+}
+.about-us .industry ul li:hover .box .left .text h3 span {
+  color: #faa02a;
+  border-color: #faa02a;
+}
+.about-us .industry ul li:hover .box .time {
+  background-color: #faa02a;
+}
+.about-us .industry ul li:hover .box .time h2 {
+  color: #ffffff;
+}
+.about-us .industry ul li:hover .box .time p {
+  color: #ffffff;
+}
+.about-us .industry ul li .box .left .img {
+  width: 260px;
+  height: 178px;
+  overflow: hidden;
+  flex-shrink: 0;
+  margin-right: 30px;
+}
+.about-us .industry ul li .box .left .img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.about-us .industry ul li .box .left .text {
+  width: 662px;
+  padding-right: 65px;
+}
+.about-us .industry ul li .box .left .text h2 {
+  font-size: 18px;
+  line-height: 36px;
+  color: #333333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-top: 20px;
+}
+.about-us .industry ul li .box .left .text p {
+  font-size: 14px;
+  color: #808080;
+  line-height: 28px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.about-us .industry ul li .box .left .text h3 {
+  text-align: right;
+  margin-top: 20px;
+}
+.about-us .industry ul li .box .left .text h3 span {
+  display: inline-block;
+  width: 95px;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #666666;
+  border: 1px solid #ccc;
+  right: 0;
+  bottom: 0;
+}
+.about-us .industry ul li .box .time {
+  width: 180px;
+  height: 178px;
+  border-left: 1px solid #ddd;
+  flex-shrink: 0;
+}
+.about-us .industry ul li .box .time h2 {
+  font-size: 30px;
+  color: #999999;
+  text-align: center;
+  padding-bottom: 5px;
+  position: relative;
+  width: 100%;
+  margin-top: 40px;
+}
+.about-us .industry ul li .box .time h2:after {
+  position: absolute;
+  content: '';
+  width: 74px;
+  height: 1px;
+  background-color: #ddd;
+  left: 50%;
+  margin-left: -37px;
+  bottom: 0;
+}
+.about-us .industry ul li .box .time p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #999999;
+  text-align: center;
+  width: 100%;
+}
+.about-us .industry .page-box {
+  padding-top: 20px;
+}
+.about-us .industry-details {
+  width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 35px;
+}
+.about-us .industry-details > h2 {
+  font-size: 24px;
+  line-height: 34px;
+  color: #333333;
+  text-align: center;
+}
+.about-us .industry-details > p {
+  font-size: 14px;
+  line-height: 34px;
+  color: #666666;
+  text-align: center;
+}
+.about-us .industry-details > p span {
+  margin-right: 25px;
+}
+.about-us .industry-details > p span:last-child {
+  margin-right: 0;
+}
+.about-us .industry-details .con {
+  padding-bottom: 45px;
+  padding-top: 30px;
+  border-top: 1px dashed #ddd;
+  border-bottom: 1px dashed #ddd;
+  margin-top: 15px;
+}
+.about-us .industry-details .con p {
+  font-size: 16px;
+  line-height: 34px;
+  color: #666666;
+  text-indent: 1em;
+}
+.about-us .industry-details .con img {
+  display: block;
+  width: 720px;
+  margin: 35px auto;
+}
+.about-us .industry-details .to-more {
+  margin-top: 20px;
+}
+.about-us .industry-details .to-more a {
+  font-size: 16px;
+  color: #666666;
+  line-height: 34px;
+}
+.about-us .industry-details .to-more a:hover {
+  color: #faa02a;
+}
 .fine-class .advantage {
   padding: 50px 0 60px;
 }
@@ -1679,17 +1848,21 @@
 .fine-class .setup {
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 45px;
+  padding-bottom: 30px;
 }
 .fine-class .setup .list li {
   width: 583px;
   height: 303px;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 30px;
 }
 .fine-class .setup .list li h2 {
   color: #ffffff;
   margin-top: 18px;
   padding-left: 40px;
+  margin-bottom: 30px;
 }
 .fine-class .setup .list li h2 em {
   font-size: 36px;
@@ -1699,4 +1872,441 @@
 .fine-class .setup .list li h2 span {
   font-size: 28px;
   margin-top: 7px;
+}
+.fine-class .setup .list li p {
+  font-size: 16px;
+  line-height: 30px;
+  color: #666666;
+  padding-left: 50px;
+  padding-right: 65px;
+}
+.fine-class .setup .list li p em {
+  color: #faa02a;
+}
+.fine-class .find-prob {
+  padding: 50px 0;
+}
+.fine-class .find-prob .list {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 548px;
+  position: relative;
+}
+.fine-class .find-prob .list li {
+  position: absolute;
+  width: 230px;
+}
+.fine-class .find-prob .list li.f1 {
+  left: 0;
+  top: 210px;
+}
+.fine-class .find-prob .list li.f2 {
+  left: 242px;
+  top: 320px;
+}
+.fine-class .find-prob .list li.f3 {
+  left: 485px;
+  top: 210px;
+}
+.fine-class .find-prob .list li.f4 {
+  left: 725px;
+  top: 320px;
+}
+.fine-class .find-prob .list li.f5 {
+  left: 970px;
+  top: 210px;
+}
+.fine-class .find-prob .list li.other h1 {
+  color: #5fc9ff;
+}
+.fine-class .find-prob .list li h1 {
+  font-size: 28px;
+  color: #faa02a;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1;
+}
+.fine-class .find-prob .list li h2 {
+  font-size: 16px;
+  line-height: 32px;
+  color: #333333;
+  text-align: center;
+  margin: 18px 0 12px;
+  padding: 0 20px;
+}
+.fine-class .find-prob .list li p {
+  font-size: 14px;
+  line-height: 22px;
+  color: #666666;
+  text-align: center;
+  padding: 0 20px;
+}
+.fine-class .huit {
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0 100px;
+}
+.fine-class .huit .list {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 370px;
+  margin-top: 50px;
+  position: relative;
+}
+.fine-class .huit .list li {
+  position: absolute;
+  color: #ffffff;
+  width: 206px;
+}
+.fine-class .huit .list li.h1 {
+  left: 0;
+  top: 170px;
+}
+.fine-class .huit .list li.h2 {
+  left: 165px;
+  top: 212px;
+}
+.fine-class .huit .list li.h3 {
+  left: 330px;
+  top: 170px;
+}
+.fine-class .huit .list li.h4 {
+  left: 495px;
+  top: 72px;
+}
+.fine-class .huit .list li.h5 {
+  left: 495px;
+  top: 212px;
+}
+.fine-class .huit .list li.h6 {
+  left: 660px;
+  top: 172px;
+}
+.fine-class .huit .list li.h7 {
+  left: 825px;
+  top: 212px;
+}
+.fine-class .huit .list li.h8 {
+  left: 995px;
+  top: 168px;
+}
+.fine-class .huit .list li h2 {
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.fine-class .huit .list li p {
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  padding: 0 35px;
+}
+.course-list {
+  padding-bottom: 60px;
+}
+.course-list .nav-tab {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.course-list .nav-tab > li {
+  margin-bottom: 15px;
+}
+.course-list .nav-tab > li span {
+  font-size: 18px;
+  line-height: 30px;
+  color: #333333;
+}
+.course-list .nav-tab > li ul li {
+  margin-right: 18px;
+}
+.course-list .nav-tab > li ul li a {
+  font-size: 14px;
+  line-height: 30px;
+  color: #666666;
+  display: block;
+  padding: 0 12px;
+  border-radius: 15px;
+}
+.course-list .nav-tab > li ul li a:hover,
+.course-list .nav-tab > li ul li a.active {
+  background-color: #faa02a;
+  color: #ffffff;
+}
+.course-list .list li {
+  width: 590px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  padding: 15px 0 15px;
+  margin-bottom: 30px;
+}
+.course-list .list li:hover h2 {
+  color: #faa02a;
+}
+.course-list .list li h2 {
+  font-size: 22px;
+  line-height: 32px;
+  color: #333333;
+  text-align: center;
+}
+.course-list .list li .con {
+  width: 535px;
+  margin: 20px auto 0;
+  font-size: 16px;
+  line-height: 30px;
+  color: #666666;
+  height: 140px;
+  border-bottom: 1px dashed #666666;
+}
+.course-list .list li .op {
+  text-align: center;
+  margin-top: 20px;
+}
+.course-list .list li .op .details {
+  display: inline-block;
+  width: 130px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  border-radius: 16px;
+  background-color: #faa02a;
+  color: #ffffff;
+  font-size: 14px;
+  margin-right: 35px;
+}
+.course-list .list li .op .zx {
+  display: inline-block;
+  width: 112px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 15px;
+  background-color: #ffffff;
+  color: #faa02a;
+  border: 1px solid #faa02a;
+  font-size: 14px;
+}
+.course-list .down-list li {
+  width: 586px;
+  height: 78px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.course-list .down-list li:hover {
+  border-color: #faa02a;
+}
+.course-list .down-list li:hover .img .hid {
+  display: block;
+}
+.course-list .down-list li:hover .img .now {
+  display: none;
+}
+.course-list .down-list li:hover .to {
+  background-color: #faa02a;
+}
+.course-list .down-list li .img {
+  width: 50px;
+  padding-top: 25px;
+  padding-left: 15px;
+}
+.course-list .down-list li .img .hid {
+  display: none;
+}
+.course-list .down-list li .img .now {
+  display: block;
+}
+.course-list .down-list li .con {
+  width: 410px;
+  padding-top: 10px;
+}
+.course-list .down-list li .con p {
+  font-size: 14px;
+  color: #333333;
+  line-height: 28px;
+}
+.course-list .down-list li .to {
+  width: 50px;
+  background-color: #dddddd;
+  height: 100%;
+  padding-left: 30px;
+}
+.course-list .down-list li .to img {
+  margin-top: 25px;
+}
+.course-list .page-box {
+  margin-top: 55px;
+}
+.login {
+  position: relative;
+}
+.login .bg {
+  width: 100%;
+  display: block;
+}
+.login .login-box {
+  position: absolute;
+  width: 340px;
+  padding: 0 30px;
+  left: 50%;
+  margin-left: -200px;
+  top: 105px;
+  background-color: #ffffff;
+  z-index: 5;
+  padding-bottom: 90px;
+  padding-top: 60px;
+}
+.login .login-box .title {
+  margin-bottom: 20px;
+}
+.login .login-box .title em {
+  font-size: 24px;
+  color: #1b1a16;
+  line-height: 36px;
+}
+.login .login-box .title span {
+  font-size: 16px;
+  color: #1b1a16;
+  line-height: 36px;
+}
+.login .login-box .title span a {
+  color: #faa02a;
+  margin-left: 15px;
+}
+.login .login-box .message .err {
+  font-size: 14px;
+  color: #ff0000;
+  line-height: 36px;
+  margin-bottom: 5px;
+}
+.login .login-box .message .err span {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-color: #ff0000;
+  line-height: 14px;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 50%;
+  vertical-align: baseline;
+  margin-right: 8px;
+}
+.login .login-box .message .box {
+  border: 1px solid #ccc;
+  height: 42px;
+  margin-bottom: 15px;
+}
+.login .login-box .message .box.on {
+  border-color: #faa02a;
+}
+.login .login-box .message .box span {
+  color: #999999;
+  font-size: 14px;
+  line-height: 40px;
+  margin-left: 10px;
+  display: inline-block;
+  min-width: 45px;
+}
+.login .login-box .message .box input {
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  color: #333333;
+  width: 205px;
+  padding-left: 15px;
+}
+.login .login-box .message .box input.dx {
+  width: 323px;
+}
+.login .login-box .message .yzm input[type='text'] {
+  width: 185px;
+  height: 40px;
+  border: 1px solid #ccc;
+  line-height: 40px;
+  font-size: 14px;
+  color: #333333;
+  padding-left: 10px;
+}
+.login .login-box .message .yzm input[type='button'] {
+  width: 126px;
+  height: 42px;
+  line-height: 42px;
+  text-align: center;
+  background-color: #faa02a;
+  font-size: 14px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.login .login-box .message .yzm input[disabled] {
+  background-color: #999999;
+}
+.login .login-box .message .yzm .yzm-box {
+  cursor: pointer;
+  width: 126px;
+  height: 40px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+.login .login-box .message .toLogin {
+  display: block;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #faa02a;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: opacity 0.3s ease 0s;
+  -webkit-transition: opacity 0.3s ease 0s;
+  -moz-transition: opacity 0.3s ease 0s;
+  -ms-transition: opacity 0.3s ease 0s;
+  opacity: 1;
+}
+.login .login-box .message .toLogin:hover {
+  opacity: 0.8;
+}
+.login .login-box .message .op span {
+  font-size: 14px;
+  line-height: 36px;
+  color: #666666;
+  position: relative;
+  padding-left: 18px;
+  cursor: pointer;
+}
+.login .login-box .message .op span em {
+  color: #faa02a;
+  margin-left: 5px;
+}
+.login .login-box .message .op span:before {
+  content: '';
+  width: 12px;
+  height: 12px;
+  border: 2px solid #ccc;
+  left: 0;
+  top: 50%;
+  margin-top: -7px;
+  position: absolute;
+}
+.login .login-box .message .op span.active i {
+  display: block;
+}
+.login .login-box .message .op span i {
+  position: absolute;
+  left: 2px;
+  top: 0;
+  z-index: 3;
+  display: none;
+}
+.login .login-box .message .op a {
+  font-size: 14px;
+  line-height: 36px;
+  color: #999999;
 }
