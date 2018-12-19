@@ -50,10 +50,10 @@
                     <a href="#">首页</a>
                 </li>
                 <li>
-                    <a href="#">走进高昇</a>
+                    <a href="#" class="on">走进高昇</a>
                 </li>
                 <li>
-                    <a href="#" class="on">一对一</a>
+                    <a href="#" >一对一</a>
                 </li>
                 <li>
                     <a href="#">精品小班</a>
@@ -620,110 +620,10 @@
 <script type="text/javascript">
  //JS代码部分
  $(function(){
-     //1对1辅导布局
-     $(".one-to-one .feature > li").each(function(){
-         var index = $(this).index() + 1;
-         index % 4 == 0 && $(this).css("margin-right","0px");
-     });
-
-     //精确定位，分层教学布局
-     var colors = ['#5fc9ff','#ffb85a','#ff6b69','#778cff','#ffb049'];
-     (function(){
-        var ci=0;
-        var H = 220;
-        var L = 0;
-        //1.默认显示小学语文
-        //内容的第一级显示，
-        $(".one-tree .details>li").eq(0).show().siblings().hide();
-        //内容的第二级切换
-        $('.one-tree .details > li > ul > li').eq(0).show().siblings().hide();
-        //
-        $(".two-tree .course").eq(0).show().siblings().hide();
 
         
-        $(".type-dif li").each(function(){
-            
-            //循环输出5个背景的颜色与字体颜色
-            var index = $(this).index();
-            $(this).css({"background":colors[ci],"height":H+"px",'left':L+"%"});
-            $(this).find("h2").css("color",colors[ci]);
-            ci++
-            if((index+1)%5==0){
-                ci=0
-            }
-            L += 20;
-            //每个背景的高度递增
-            H += 70;
-
-            
-        })
-        $(".type-dif").height($(".type-dif li:last-child").height());
-        $('.one-tree .details > li > ul > li').height($(".type-dif").height());
-
-
-        //里面的文字每个top递增70px,left递增20%;
-        var top = 295;
-        var left = 0;
-        $(".one-tree .details > li > ul .list").each(function(){
-            $(this).find('ul').each(function(){
-                $(this).css({'top':top+"px","left":left+"%"});
-                top -= 70;
-                left += 20;
-                if(left > 80 && top < 15){
-                    top = 295;
-                    left = 0;
-                }
-            })
-        })
         
 
-        //六名老师布局
-        $(".six-teachers .list li").each(function(){
-            var index = $(this).index() + 1;
-            index % 2 == 0 ? $(this).addClass('fr right') : $(this).addClass('fl');
-
-        })
-
-        //一对一个性化辅导
-        $(".individuation .list li").each(function(){
-            var index = $(this).index() + 1;
-            index % 4 == 0 && $(this).addClass('last');
-        })
-        
-     }());
-
-
-
-     //点击小学等一级tab
-     var grade = 0,course;
-     $('.three-tree li').click(function(){
-        $(this).addClass('active').siblings().removeClass('active');
-        var index = $(this).index();
-        grade = index;
-        course = 0;
-        letShow(grade,course);
-
-     })
-
-     //点击学科等二级tab
-     $('.two-tree .course ul li').click(function(){
-         $(this).addClass('active').siblings().removeClass('active');
-         var index = $(this).index();
-         course = index;
-         letShow(grade,course);
-     })
-     
-     //定义一个公共函数显示与隐藏
-     function letShow(grade,course){
-        $('.one-tree>.details>li').eq(grade).show().siblings().hide();
-        $('.one-tree>.details>li').eq(grade).find('.class-box').find('.list').eq(course).show().siblings().hide();
-        $('.two-tree .course').each(function(){
-            $(this).find('li').eq(course).addClass('active').siblings().removeClass('active');
-        })
-        $('.two-tree .course').eq(grade).show().siblings().hide();
-     }
-
-     
  })
 </script>
 <script>

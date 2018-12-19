@@ -177,4 +177,163 @@
 .right-nr .question.video{margin-bottom:0;}
 
 
-
+/**下载的题库**/
+.down-ti{
+    margin-top: 32px;
+}
+.down-ti>h2{
+    height: 33px;
+    line-height: 33px;
+    background-color: #f2f2f2;
+    padding: 0 20px;
+}
+.down-ti>h2 span{
+    font-size: 14px;
+    color: #333;
+}
+.down-ti .down-list li{
+    height: 60px;
+    line-height: 60px;
+    padding: 0 20px;
+}
+.down-ti .down-list li p{
+    font-size: 14px;
+    color: #666;
+}
+.down-ti .down-list li a:hover p{
+    color: #faa02a;
+}
+.down-ti .set-pass p,.down-ti .set-pass>div{
+    margin-bottom: 20px;
+}
+.down-ti .set-pass p span,.down-ti .set-pass>div>span{
+    font-size: 14px;
+    line-height: 38px;
+    color: #333;
+    width: 82px;
+}
+.down-ti .set-pass p>input,.down-ti .set-pass>div>input{
+    width: 310px;
+    height: 38px;
+    line-height: 38px;
+    border:1px solid #eee;
+    font-size: 16px;
+    color: #333;
+    padding-left: 12px;
+}
+.down-ti .set-pass p .yzm input[type='text']{
+    width:150px;
+    height: 38px;
+    line-height: 38px;
+    border:1px solid #eee;
+    margin-right: 10px;
+}
+.down-ti .set-pass p .yzm input[type='button']{
+    width:150px;
+    height: 38px;
+    line-height: 38px;
+    border:1px solid #eee;
+    background-color: #f0f0f0;
+    font-size: 14px;
+    color: #666;
+    cursor: pointer;
+}
+.down-ti .set-pass>button{
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    display: block;
+    background-color: #faa02a;
+    font-size: 14px;
+    color: #fff;
+    margin-left: 82px;
+    border:none;
+    outline: none;
+    cursor: pointer;
+}
+.down-ti .set-pass .photo{
+    position: relative;
+    display: block;
+    width: 86px;
+    height: 86px;
+}
+.down-ti .set-pass .photo>img{
+    display: block;
+    width: 86px;
+    height: 86px;
+    border-radius: 50%;
+}
+.down-ti .set-pass .photo:hover .label{
+    display: block;
+}
+.down-ti .set-pass .photo .label{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,0.7);
+    line-height: 86px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    display: none;
+}
+.down-ti .set-pass .photo .upload{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 6;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+}
+.down-ti .male{
+    height: 38px;
+    line-height: 38px;
+}
+.down-ti .male li{
+    height: 38px;
+    line-height: 38px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.down-ti .male p{
+    font-size: 16px;
+    color: #333;
+}
+.down-ti .male span{
+    width: 13px;
+    height: 13px;
+    border:1px solid #999;
+    position: relative;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 13px;
+} 
+.down-ti .male span img{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    z-index: 3;
+    left: -1px;
+    top: -1px;
+    display: none;
+}
+.down-ti .male li.on span img{
+    display: block;
+}
+.down-ti .select-city select{
+    width: 150px;
+    height: 38px;
+    line-height: 38px;
+    border:1px solid #eee;
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 11px;
+}
